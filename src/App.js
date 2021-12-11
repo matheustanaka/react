@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div className='Weather'>
       {forecasts.map((forecast) => (
-        <Weather key={forecast.id} forecast = {forecast} />
+        <Weather key={forecast.id} forecast={forecast} />
       ))}
       <button onClick = {handleChangeForecast}>Change Forecast</button>
     </div>
